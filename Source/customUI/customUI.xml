@@ -1,0 +1,11 @@
+﻿<customUI xmlns="http://schemas.microsoft.com/office/2006/01/customui" onLoad="ribbonLoaded">
+  <ribbon startFromScratch="false">
+    <tabs>
+      <tab id="PukiWikiTab" label="PukiWiki">
+        <group id="pukiwikiGrp" label="PukiWiki" >
+          <button id="CopyForWikiWithFormat"   label="書式付きWiki形式でコピー" supertip="選択した範囲を書式無しWikiフォーマットに変換してコピーします" description="選択した範囲を書式無しWikiフォーマットに変換してコピーします" onAction="ribbonOnAction"  />
+          <button id="CopyForWikiWithoutFormat"   label="書式無しWiki形式でコピー" supertip="選択した範囲を書式付きWikiフォーマットに変換してコピーします" description="選択した範囲を書式付きWikiフォーマットに変換してコピーします" onAction="ribbonOnAction"  />
+        </group>
+    </tabs>
+  </ribbon>
+</customUI>
