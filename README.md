@@ -4,11 +4,16 @@
 
 ---
 アイデアマンズ株式会社 Wikiサポート "Excel" アドインで不安定な部分の改修
+
 ・クリップボードへのコピーがうまく動作しない場合があるため Windows API に変更。
+
 ・Auto_Openマクロが動作しない場合があるのでRibbon対応。
 
+
 修正元のアドイン
+
 アイデアマンズ株式会社 Wikiサポート "Excel" アドイン
+
 https://www.ideamans.com/software/wiki-support-addin/
 
 
