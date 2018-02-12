@@ -16,7 +16,6 @@ Public Sub RibbonOnAction(control As IRibbonControl)
     '文字列のマクロ名を実行する。
     Application.Run strBuf
 
-   
     Exit Sub
 e:
     MsgBox Err.Description, vbOKOnly + vbCritical, "PukiWiki"
